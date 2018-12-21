@@ -1,0 +1,29 @@
+{
+  "name": "yuque-single-doc-hook-backend",
+  "version": "1.0.0",
+  "description": "yuque single doc hook backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DuanPengfei/yuque-single-doc-hook.git"
+  },
+  "keywords": [
+    "yuque",
+    "webhook"
+  ],
+  "author": "DuanPengfei <duanpengfei1993@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DuanPengfei/yuque-single-doc-hook/issues"
+  },
+  "homepage": "https://github.com/DuanPengfei/yuque-single-doc-hook#readme",
+  "dependencies": {
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "request-promise": "^4.2.2"
+  }
+}
